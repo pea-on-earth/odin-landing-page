@@ -2,6 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 .header {
@@ -29,6 +32,7 @@ img {
 .hero {
     display: flex;
     align-items: center;
+    padding: 12px;
 }
 
 .hero-text {
@@ -44,11 +48,16 @@ img {
 
 .info {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     padding: 48px;
 }
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    padding: 24px 48px;
+    flex-flow: row-reverse wrap;
 }
 
 .quote-text {
@@ -92,7 +101,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 8px;
+    gap: 10px;
 }
 
 a, .text {
