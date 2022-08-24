@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
-    padding: 0 3em 0 3em;
 }
 
 .header {
@@ -23,10 +22,24 @@ body {
     color: white;
 }
 
+img {
+    max-width: 300px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
 .hero-text {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+}
+
+.info-header {
+    font-size: large;
+    font-weight: 700;
 }
 
 .info {
