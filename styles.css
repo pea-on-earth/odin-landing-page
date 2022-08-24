@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 12px;
 }
 
 .logo {
@@ -27,17 +28,48 @@ body {
     color: #f9faf8;
 }
 
+.info {
+    display: flex;
+    padding: 48px;
+}
+
 .quote {
     background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-atrib {
+    font-weight: bold;
 }
 
 .call {
     display: flex;
     background-color: #3882f6;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 32px;
+    margin: 32px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
 }
 
 button {
-    background-color: #3882f6
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: 6px;
+
 }
 
 ul {
@@ -52,4 +84,9 @@ ul {
 a, .text {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
+}
+
+.action {
+    font-weight: 800;
 }
