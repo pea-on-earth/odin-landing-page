@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+/* header section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header, .hero {
+    background-color: #1F2937
+}
+
+/* info section */
+
+.info {
+    display: flex;
+}
+
+.card {
+    max-width: 100px;
+}
+
+/* quote section */
+
+/* footer */
