@@ -34,7 +34,10 @@ header {
     gap: 1em;
 }
 
-ul, p.subtext, a {
+ul, 
+a,
+p.subtext, 
+p {
     color: #E5E7EB;
     text-decoration: none;
 }
@@ -60,6 +63,14 @@ ul, p.subtext, a {
     width: 50%;
 }
 
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+}
+
 .hero {
     color: #f9faf8;
     font-size: 48px;
@@ -72,6 +83,7 @@ button {
     padding: 7px 1em;
     border-radius: 9px;
     color: #f9faf8;
+    border: 2px solid #f9faf8;
 }
 
 /* main */
@@ -81,16 +93,79 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 0 13em;
-    margin-top: 3em;
+    margin: 3em;
+    gap: 2em;
 }
 
-.container {
+.card-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.card-container p {
+    color: #1f2937;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
 
+.square {
+    border: 3px solid blue;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
 
+/* quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+    gap: 1em;
+}
+
+em {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote p {
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+/* call to action */
+
+.call-container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 2em;
+    justify-content: space-between;
+    margin: 4em;
+    margin-right: 208px;
+    margin-left: 208px;
+    border-radius: 12px;
+}
+
+strong {
+    color: #f9faf8;
+}
 
 
 /* footer */
